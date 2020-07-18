@@ -1,0 +1,175 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.custom_1{
+	margin-top: 15px;
+	
+}
+
+
+.table_content .nav-tabs {
+    padding: 0px;
+	margin-top: 0;
+}
+
+.table_content .nav-tabs li {
+    border: 0 none;
+    margin-right: -4px;
+	display: inline-block;
+}
+
+.table_content .nav-tabs li.static_text {
+	color: #333;
+	font-size: 15px;
+	padding: 12px 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.table_content .nav-tabs li a:focus {
+	border: 0 none;
+	outline: none;
+	text-decoration: none;
+}
+
+.table_content .nav-tabs li a:hover {
+	border: none;
+}
+
+
+.table_content .nav-tabs li a {
+    background-color: transparent;
+    border: 0 none;
+    border-radius: 0;
+    color: #333;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    padding: 12px 42px;
+    text-transform: uppercase;
+	text-decoration: none;
+	border: 1px solid transparent;
+}
+
+.table_content .nav-tabs li:first-child {
+	border-right: 1px solid transparent;
+}
+
+.table_content .nav-tabs li:last-child {
+	border-right: transparent;
+}
+
+.table_content .nav-tabs li.active a, .table_content .nav-tabs li:hover a {
+	background-color: #13BDDB;
+	color: #fff;
+	border: 1px solid #000;
+	
+}
+
+.table_content .nav-tabs li.active {
+	border-bottom-color: #e67b1d;
+}
+
+.table_content .tab-pane {
+    margin-top: 0px;
+    padding: 14px;
+    width: auto;
+}
+
+.table_content table {
+    background: #fff none repeat scroll 0 0;
+    border-collapse: collapse;
+}
+
+.table_content table thead th {
+    background: #f3f3f3 none repeat scroll 0 0;
+    color: #404040;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 8px 0;
+    text-transform: uppercase;
+	text-align: center;
+    width: 61px;
+}
+
+.table_content table td {
+    color: #404040;
+    font-size: 16px;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.table2 table tr:nth-child(2n) {
+    border-bottom: 13px solid #f0f1f3;
+}
+
+.phoen_img {
+    background: #cccccc;
+    height: auto;
+    padding: 10px;
+    width: 13%;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#phoen_catlist_table .thumbnail {
+    margin-bottom: 0;
+}
+
+.phoen_img img {
+    max-width: 100%;
+}
+
+.phoen_img p {
+    color: #777777;
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+/** form css **/
+
+.phoen_form {
+    margin: 10px 0;
+}
+
+.phoen_form .form-control {
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.phoen_form form {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin-top: 15px;
+	margin-right: 20px;
+}
+
+.phoen_form label {
+    float: none;
+    margin-right: 10px;
+    display: inline-block;
+    min-width: 120px;
+    vertical-align: middle;   
+}
+
+.btn.btn-primary.upload_image_button {
+    display: block;
+    margin-bottom: 10px;
+}
+.btn.btn-primary.phoen_del_btn {
+ border-radius: 50%;
+    float: right;
+    font-size: 11px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    width: 20px;
+}

@@ -1,0 +1,262 @@
+body {
+    margin-top: 1rem;
+}
+.filtr-item {
+    padding: 1rem;
+}
+.item-desc {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4px 0;
+    z-index: 1;
+    bottom: 1rem;
+    left: auto;
+    right: auto;
+	width: 100px;
+	font-size: 13px;
+}
+
+/* Filter controls */
+.simplefilter li, .multifilter li, .sortandshuffle li {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1rem 1rem;
+
+}
+.simplefilter li {
+    background-color: #585858;
+}
+.simplefilter li.active {
+    background-color: #212121;
+}
+.multifilter li {
+    background-color: #4b9eff;
+}
+.multifilter li.active {
+    background-color: #2265b4;
+}
+
+/* Shuffle and sort controls */
+.phoen_gall_list select {
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+}
+/* .sortandshuffle .shuffle-btn {
+    background-color: #dec800;
+}
+.sortandshuffle .sort-btn {
+    background-color: #de0000;
+}
+.sortandshuffle .sort-btn.active {
+    background-color: #9d0000;
+}
+ */
+/* Search control */
+.search-row {
+    margin-left: 2.5rem;
+}
+.filtr-search {
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+.carousel-inner > .item > a > img, 
+.carousel-inner > .item > img, 
+.img-responsive, .thumbnail a > img, 
+.thumbnail > img{
+	display: block;
+    height: 204px;
+    max-width: 272px;
+}
+
+#phoe_gallry_item_list li {
+    background-color: transparent;
+    border: 1px solid #212121;
+    border-radius: 0;
+    box-shadow: none;
+    color: #333;
+    float: left;
+    margin: 0 10px 10px 0;
+    padding: 10px 25px;
+}
+
+#phoe_gallry_item_list li:hover,
+#phoe_gallry_item_list li.active {
+    background-color: #212121;
+    color: #fff;
+}
+
+#phoe_gallry_item_list {
+	margin: 0;
+	padding: 0;
+	list-style: outside none none;
+}
+
+ul.phoen_gall_list {
+    list-style: outside none none;
+    margin: 0 0 10px;
+    padding: 0;
+	width: 70%;
+	float: left;
+}
+
+ul.phoen_gall_list li {
+    background-color: #32373c;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 5px 8px;
+}
+
+ul.phoen_gall_list select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: currentcolor currentcolor #32373c;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 5px;
+    text-transform: capitalize;
+    width: 130px;
+	background: url("./../images/arrow.png") 97% center no-repeat;
+}
+
+.phoen_search_ctrl {
+    float: right;
+    margin: 0 !important;
+    width: 20%;
+	position: relative;
+}
+
+.phoen_search_ctrl input[type="text"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: currentcolor currentcolor #32373c;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    color: #32373c;
+    font-size: 13px;
+    padding: 5px 25px 5px 5px;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #32373c;
+	opacity: 1;
+}
+
+:-moz-placeholder {
+	color: #32373c;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #32373c;
+	opacity: 1;
+}
+
+:-ms-input-placegolder {
+	color: #32373c;
+	opacity: 1;
+}
+
+.phoen_search_icon {
+    background: rgba(0, 0, 0, 0) url("./../images/search.png") no-repeat scroll right top;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 20px;
+}
+
+
+/* gallery css starts here */
+.phoe_gallery_type a {
+    float: left;
+    position: relative;
+    width: 100%;
+	overflow: hidden;
+}
+
+.phoe_gallery_type a span.item-desc {
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    width: 100%;
+}
+
+.phoe_gallery_type a:hover span.item-desc {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+}
+	 
+.phoen_filter_loader {
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+	width: 100%;
+	height: 1200px;
+    z-index: 99;
+}
+
+.phoen_filter_loader > img {
+    left: 49%;
+    position: absolute;
+    top: 10%;
+}
+
+.filtr-container.phoe_gallery_type {
+	position: relative !important;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

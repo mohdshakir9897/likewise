@@ -1,0 +1,70 @@
+/*=============== css for backend ===================*/
+#phoen_catlist_table .cat_delete_button,
+#phoen_catlist_table ul li a.phoe_edit_btn:hover,
+#phoen_catlist_table ul li.active a.phoe_edit_btn,
+#phoen_catlist_table ul li a.phoe_edit_btn {
+	background-color: #ccc;
+	border: medium none;
+	border-radius: 50%;
+	color: #333;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 13px;
+	height: 25px;
+	line-height: 25px;
+	margin-bottom: 6px;
+	margin-right: 10px;
+	padding: 0;
+	text-align: center;
+	width: 25px;
+}
+
+.cat_delete_button {
+    cursor: pointer;
+}
+
+#phoen_catlist_table ul li a.phoe_gal_tab {
+    padding: 14px 50px;
+	background-color: #eee;
+    border: medium none;
+    margin-right: 10px;
+	border-radius: 4px 4px 0 0;
+}
+
+#phoen_catlist_table ul li:hover a.phoe_gal_tab {
+	color: #333;
+}
+
+#phoen_catlist_table ul li.active a.phoe_gal_tab:focus {
+	box-shadow: none;
+	border: none;
+}
+
+#phoen_catlist_table ul li.active a.phoe_gal_tab:hover,
+#phoen_catlist_table ul li a.phoe_gal_tab:hover,
+#phoen_catlist_table ul li.active a.phoe_gal_tab {
+    background-color: #32373c;
+	color: #fff;
+    padding: 14px 50px;
+	border: none;
+}
+
+#phoen_catlist_table {
+    margin-top: 30px;
+}
+
+#phoen_catlist_table .btn-primary,
+#phoen_catlist_table .btn-primary:hover,
+.phoen_form .btn-primary:visited,
+.phoen_form .btn-primary:focus,
+.phoen_form .btn-primary:hover,
+.phoen_form .btn-primary {
+    background-color: #32373c;
+    border-color: #32373c;
+}
+
+form.phoen_cat_edit_form {
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+    padding: 0 20px;
+}
